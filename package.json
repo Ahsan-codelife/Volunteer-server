@@ -1,7 +1,6 @@
 {
   "name": "volunteer-network-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -10,14 +9,24 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.0",
     "imgbb-uploader": "^1.1.0",
-    "mongodb": "^3.6.2",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahsan-codelife/Volunteer-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ahsan-codelife/Volunteer-server/issues"
+  },
+  "homepage": "https://github.com/Ahsan-codelife/Volunteer-server#readme",
+  "description": ""
 }
